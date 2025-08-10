@@ -72,14 +72,6 @@ body,main {
     margin-block-end: calc(24 / 16 * 1rem);
 }
 
-.text-preset-a {
-    font-size: calc(14 / 16 * 1rem);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    line-height: 110%;
-    letter-spacing: 0;
-}
-
 .product-description {
     font-size: calc(14 / 16 * 1rem);
     font-family: 'Montserrat', sans-serif;
@@ -146,6 +138,32 @@ button img {
     height: calc(16 / 16 * 1rem);
     margin-right: 1rem;
     vertical-align: top;
+}
+
+button:hover {
+    background-color: var(--green-700);
+    cursor: pointer;
+}
+
+button:active {
+    animation: press 0.15s;
+}
+
+button:focus {
+    background-color: var(--green-700);
+    border: .2rem solid var(--green-500);
+}
+
+@keyframes press {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 
