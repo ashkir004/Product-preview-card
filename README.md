@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Product Preview Card](https://github.com/ashkir004/Product-preview-card)
+- Live Site URL: [Product Preview Card Component](https://product-preview-card-ashkir004.netlify.app/)
 
 ## My process
 
