@@ -155,7 +155,7 @@ button:active {
 
 button:focus {
     background-color: var(--green-700);
-    border: .2rem solid var(--green-500);
+    outline: .2rem solid var(--green-500);
 }
 
 @keyframes press {
