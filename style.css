@@ -155,7 +155,7 @@ button:active {
 
 button:focus {
     outline: .2rem solid var(--green-500);
-    outline-offset: .05rem;
+    outline-offset: 0.1rem;
 }
 
 @keyframes press {

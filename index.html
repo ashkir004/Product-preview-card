@@ -31,11 +31,24 @@
             <p class="previous-price">$169.99</p>           
           </section>
 
-          <button><img src="./images/icon-cart.svg" />Add to Cart</button>
+          <button id="add-to-cart-btn"><img src="./images/icon-cart.svg" />
+            <span class="btn-label">Add to Cart</span></button>
         </section>
     </article>
 
   </main>
 
+  <script>
+    const btn = document.getElementById('add-to-cart-btn');
+    const label = btn.querySelector('.btn-label');
+
+    btn.addEventListener('click', function() {
+      label.textContent = "Added to cart";
+    });
+    
+    btn.addEventListener('blur', function() {
+      label.textContent = "Add to Cart";
+    });
+  </script>
 </body>
 </html>
