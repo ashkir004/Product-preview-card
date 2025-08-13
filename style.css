@@ -55,6 +55,10 @@ body,main {
     border-radius: calc(8 / 16 * 1rem) calc(8 / 16 * 1rem) 0 0;
 }
 
+.enhanced-img {
+    filter: brightness(1.1) contrast(1.2) saturate(1.1);
+}
+
 .card-content {
     max-width: 100%;
     padding: 32px;
